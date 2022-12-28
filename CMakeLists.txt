@@ -25,7 +25,7 @@ cmake_minimum_required(VERSION 3.2)
 
 #set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/")
 
-find_package(OpenCV 3.1 REQUIRED COMPONENTS core calib3d features2d imgproc highgui)
+find_package(OpenCV 4.5 REQUIRED COMPONENTS core calib3d features2d imgproc highgui)
 find_package(Boost      REQUIRED COMPONENTS system chrono filesystem unit_test_framework program_options)
 find_package(Ceres      REQUIRED)
 find_package(OpenGL)
